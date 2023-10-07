@@ -58,3 +58,9 @@ button {
 .body {
      margin: 0 auto; text-align: center; width: 960px;
 }
+.img {
+     width: 70px;
+     height: 70px;
+}
+
+   
