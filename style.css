@@ -20,6 +20,7 @@ h1{
      margin-top: 30px;
      text-align: left;
      padding: 5px;
+     padding-right: 80%;
 }
  h2 {
      color: #b4b4b4;
@@ -36,13 +37,8 @@ h1{
      font-weight: bold;
      background-color: rgb(101, 15, 100);
      margin-right: 50%;
-     
+}
 
-}
-.div {
-     margin: 50%;
-     padding: 50%;
-}
 button {
      margin-left: 110px;
 }
@@ -58,9 +54,31 @@ button {
 .body {
      margin: 0 auto; text-align: center; width: 960px;
 }
-.img {
-     width: 70px;
-     height: 70px;
+
+.eflatuncemguney {
+     width: 200px;
+     height: 300px;
+     margin-left: 20px;
 }
 
-   
+.eflatun {
+     display: block;
+     padding-right: 80%;
+     margin-left: 20px;
+    
+}
+.halide {
+     display: block;
+     padding-right: 80%;
+     margin-left: 20px;     
+}
+.eflatun.baslık {
+     display: block;
+     padding-right: 80%;
+     margin-left: 20px;
+}
+.necip {
+     display: block;
+     padding-right: 80%;
+     margin-left: 20px;     
+}
