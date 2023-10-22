@@ -1,3 +1,7 @@
+html {
+     background-color: black;
+     color: #b4b4b4;
+}
 
 a {color: #fff;
    font-size: small;
@@ -10,10 +14,7 @@ nav {
      background-color: rgb(95, 35, 94);
     
 }
-html {
-     background-color: black;
-     color: #b4b4b4;
-}
+
 h1{
      background-color: purple;
      font-size: 20px;
@@ -55,7 +56,23 @@ button {
      margin: 0 auto; text-align: center; width: 960px;
 }
 
-.eflatuncemguney {
+.container {
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+
+.writer {
+     width: 300px;
+}
+img {
+     width: 200px;
+     height: 300px;
+}
+
+
+/* .eflatuncemguney {
      width: 200px;
      height: 300px;
      margin-left: 20px;
@@ -63,33 +80,33 @@ button {
 }
 
 .eflatun {
-     display: block;
+     display:inline-block;
      padding-right: 80%;
      margin-left: 20px;
      
     
 }
 .halide {
-     display: block;
+     display:inline-block;
      padding-right: 80%;
      margin-left: 20px;     
      
 }
 .eflatun.baslık {
-     display: block;
+     display: inline-block;
      padding-right: 80%;
      margin-left: 20px;
     
 }
 .necip {
-     display: block;
+     display: inline-block;
      padding-right: 80%;
      margin-left: 20px;     
     
 }
 .Rıfat {
-     display: block;
+     display: inline-block;
      padding-right: 80%;
      margin-left: 20px;
      
-}
+} */
