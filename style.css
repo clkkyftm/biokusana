@@ -24,6 +24,7 @@ h1{
      padding-right: 80%;
 }
  h2 {
+     
      color: #b4b4b4;
      font-size: 15px;
      margin: 20px;
@@ -57,56 +58,28 @@ button {
 }
 
 .container {
-     display: flex;
+     /* display: flex;
      gap: 20px;
      flex-wrap: wrap;
-     justify-content: space-evenly;
+     justify-content: space-evenly; */
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+     gap: 20px;
 }
 
-.writer {
+/* .writer {
      width: 300px;
-}
+} */
 img {
      width: 200px;
      height: 300px;
 }
-
-
-/* .eflatuncemguney {
-     width: 200px;
-     height: 300px;
-     margin-left: 20px;
-     
+div {
+     border: 3px solid green;
 }
 
-.eflatun {
-     display:inline-block;
-     padding-right: 80%;
-     margin-left: 20px;
-     
+
+.sign{
     
+     text-align: center;
 }
-.halide {
-     display:inline-block;
-     padding-right: 80%;
-     margin-left: 20px;     
-     
-}
-.eflatun.baslık {
-     display: inline-block;
-     padding-right: 80%;
-     margin-left: 20px;
-    
-}
-.necip {
-     display: inline-block;
-     padding-right: 80%;
-     margin-left: 20px;     
-    
-}
-.Rıfat {
-     display: inline-block;
-     padding-right: 80%;
-     margin-left: 20px;
-     
-} */
